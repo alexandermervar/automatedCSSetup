@@ -5,9 +5,6 @@ import time
 parentDirectory = os.getcwd()
 timeForUser = 20
 
-print("HELLO WORLD!")
-print(parentDirectory)
-
 driver = webdriver.Firefox(executable_path= parentDirectory + '\Windows\geckodriver')
 
 # Create an array of urls to visit
