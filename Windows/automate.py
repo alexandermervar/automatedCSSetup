@@ -5,7 +5,7 @@ import time
 parentDirectory = os.getcwd()
 timeForUser = 20
 
-driver = webdriver.Firefox(executable_path= parentDirectory + '\Windows\geckodriver')
+driver = webdriver.Firefox(executable_path = parentDirectory + '\Windows\geckodriver.exe')
 
 # Create an array of urls to visit
 urls = ['https://tcciub.pie.iu.edu/ShiftsReport', 'https://tcciub.pie.iu.edu/DailyRecords?page=0&pageLimit=101', 'https://tcciub.pie.iu.edu/Tickets', 'https://iu.service-now.com/']
