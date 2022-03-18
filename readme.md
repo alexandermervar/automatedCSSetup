@@ -12,5 +12,5 @@ Although this is a pretty simple project, it is open-source and your are more th
 
 I hope you enjoy the script!
 
-Best Wishes.
+Best Wishes,  
 Alexander
