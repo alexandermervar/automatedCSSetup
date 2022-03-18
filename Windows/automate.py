@@ -1,11 +1,14 @@
 from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
 import os
 import time
 
 parentDirectory = os.getcwd()
+firefox_options = Options()
 timeForUser = 20
 
 driver = webdriver.Firefox(executable_path = parentDirectory + '\Windows\geckodriver.exe')
+firefox_options.set_preference('detach', True)
 
 # Create an array of urls to visit
 urls = ['https://tcciub.pie.iu.edu/ShiftsReport', 'https://tcciub.pie.iu.edu/DailyRecords?page=0&pageLimit=101', 'https://tcciub.pie.iu.edu/Tickets', 'https://iu.service-now.com/']
@@ -30,3 +33,5 @@ for url in urls[1:]:
     # open new url
     driver.get(url)
     i += 1
+
+driver.close
