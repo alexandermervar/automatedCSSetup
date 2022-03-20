@@ -18,7 +18,7 @@ driver.get(urls[0])
 
 # Sign in with IU Login button xpath
 # /html/body/div/div[2]/div/div[2]/div/div/p/button[1]
-driver.find_element_by_xpath('/html/body/div/div[2]/div/div[2]/div/div/p/button[1]').click()
+# driver.find_element_by_xpath('/html/body/div/div[2]/div/div[2]/div/div/p/button[1]').click()
 
 # Sleep to allow user to sign in
 time.sleep(timeForUser)
