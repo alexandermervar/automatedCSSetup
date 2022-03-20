@@ -8,7 +8,7 @@ timeForUser = 20
 driver = webdriver.Firefox(executable_path= parentDirectory + '/geckodriver')
 
 # Create an array of urls to visit
-urls = ['https://tcciub.pie.iu.edu/ShiftsReport', 'https://tcciub.pie.iu.edu/DailyRecords?page=0&pageLimit=101', 'https://tcciub.pie.iu.edu/Tickets', 'https://iu.service-now.com/']
+urls = ['https://apps.iu.edu/kpme-prd/Clock.do', 'https://tcciub.pie.iu.edu/ShiftsReport', 'https://tcciub.pie.iu.edu/DailyRecords?page=0&pageLimit=101', 'https://tcciub.pie.iu.edu/Tickets', 'https://iu.service-now.com/']
 
 # Opens the first url in the array
 driver.get(urls[0])
